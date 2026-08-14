@@ -7,8 +7,8 @@ The simulation involved a retail analytics case focused on understanding custome
 
 The project was completed in two primary phases:
 
-* **Task 1: Customer Purchasing Behaviour Analysis** — Analysed customer segments, lifestages, brand performance, and pack-size preferences to identify opportunities for category growth[cite: 1, 2].
-* **Task 2: Trial Store Performance Evaluation** — Identified suitable control stores, evaluated the performance of trial stores over a three-month period, and assessed whether observed sales uplifts were statistically significant[cite: 1, 3].
+* **Task 1: Customer Purchasing Behaviour Analysis**: Analysed customer segments, lifestages, brand performance, and pack-size preferences to identify opportunities for category growth[cite: 1, 2].
+* **Task 2: Trial Store Performance Evaluation**: Identified suitable control stores, evaluated the performance of trial stores over a three-month period, and assessed whether observed sales uplifts were statistically significant[cite: 1, 3].
 
 > **Dataset note:** The analysis used datasets provided as part of the Quantium Data Analytics Job Simulation[cite: 1, 2, 3]. The original datasets are not included in this repository.
 
@@ -17,7 +17,7 @@ The project was completed in two primary phases:
 ## Technical Stack & Libraries
 * **Language:** Python 3[cite: 2]
 * **Data Manipulation:** `pandas`, `numpy`[cite: 2, 3]
-* **Statistical Testing:** `scipy.stats` — Pearson correlation, paired t-tests, and independent t-tests[cite: 3]
+* **Statistical Testing:** `scipy.stats`  (Pearson correlation, paired t-tests, and independent t-tests)[cite: 3]
 * **Data Visualization:** `matplotlib`, `seaborn`[cite: 2, 3]
 * **Environment:** Jupyter Notebook[cite: 2, 3]
 
@@ -27,7 +27,7 @@ The project was completed in two primary phases:
 The analysis covered transaction and customer purchasing data spanning July 2018 to June 2019[cite: 1, 2, 3].
 
 The datasets provided for the simulation included:
-* **Transaction data:** 264,834 transactions across approximately 264–272 stores, containing transaction dates, store numbers, customer loyalty IDs, product descriptions, quantities, and sales values[cite: 1, 2, 3].
+* **Transaction data:** 264,834 transactions across approximately 264,272 stores, containing transaction dates, store numbers, customer loyalty IDs, product descriptions, quantities, and sales values[cite: 1, 2, 3].
 * **Purchase behaviour data:** Customer loyalty-card mappings containing lifestage classifications and premium/budget purchasing tiers[cite: 2].
 
 ---
